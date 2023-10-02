@@ -1,23 +1,16 @@
 <template>
     <div class="banner">
         <div class="fundo">
-            <h1>{{ titulo || "Titulo do banner"}}</h1>
-            <p>{{ descricao || "Breve descrição do banner" }}</p>
-            <a :href="link" target="_blank">
-                <button>{{ button || "Botão" }}</button>
+            <h1>"Restaurante do Zé"</h1>
+            <p>"Venha conferir o melhor restaurante da cidade!"</p>
+            <a href="https://www.google.com.br/maps/@48.8584033,2.2944521,256m/data=!3m1!1e3?hl=pt-BR&hl=pt-BR&entry=ttu" target="_blank">
+                <button>
+                    "Ver Localização"
+                </button>
             </a>
         </div>
     </div>
 </template>
-
-<script setup>
-import dados from '../../var.json'
-
-const titulo = dados.Banner.Title
-const descricao = dados.Banner.Description
-const button = dados.Banner.Button
-const link = dados.Banner.ButtonLink
-</script>
 
 <style>
 .banner {

@@ -4,17 +4,17 @@
                 <div class="footer-content">
                     <div class="footer-section">
                         <h3>Contato</h3>
-                        <p>Endereço: {{ endereco || 'Seu endereço, 123' }}</p>
-                        <p>Telefone: {{ telefone ||  '(11) 1234-5678'}}</p>
-                        <p>Email: {{email || 'contato@suaempresa.com'}}</p>
+                        <p>Endereço: Rua dos restaurantes, 0 - São Paulo/SP</p>
+                        <p>Telefone: (11) 99999-9999</p>
+                        <p>Email: contato@restaurantedoze.com</p>
                     </div>
                     <div class="footer-section">
                         <h3>Horário de Funcionamento</h3>
-                        <p>{{ horario || 'Seu horario de funcionamento' }}</p>
+                        <p>Segunda a Sábado: 17h - 23h</p>
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    &copy; 2023 {{ titulo ||'Nome da empresa'}}. Feito por <a href="https://github.com/pablooliveira77">Pablo Lima</a>.
+                    &copy; 2023 Restaurante do Zé. Feito por <a href="https://github.com/pablooliveira77">Pablo Lima</a>.
                 </div>
             </div>
         </footer>

@@ -1,46 +1,4 @@
 {
-    "title": "Restaurante do Zé",
-    "TitleLink1": "Cardápio",
-    "TitleLink2": "Reserva",
-    "TitleLink3": "Contato",
-    "Banner": {
-        "Title": "Restaurante do Zé",
-        "Description": "Venha conferir o melhor restaurante da cidade!",
-        "Button": "Ver localização",
-        "ButtonLink": "https://www.google.com.br/maps/@48.8584033,2.2944521,256m/data=!3m1!1e3?hl=pt-BR&hl=pt-BR&entry=ttu"
-    },
-    "Menu": [
-        {
-            "id": 1,
-            "titulo": "Pão de queijo",
-            "preço": 5,
-            "imagem": "https://picsum.photos/1500/1000"
-        },
-        {
-            "id": 2,
-            "titulo": "Café",
-            "preço": 10,
-            "imagem": "https://picsum.photos/1500/1000"
-        },
-        {
-            "id": 3,
-            "titulo": "Misto Quente",
-            "preço": 7,
-            "imagem": "https://picsum.photos/1500/1000"
-        },
-        {
-            "id": 4,
-            "titulo": "Suco de Laranja",
-            "preço": 2,
-            "imagem": "https://picsum.photos/1500/1000"
-        },
-        {
-            "id": 5,
-            "titulo": "Bolo de Cenoura",
-            "preço": 5,
-            "imagem": "https://picsum.photos/1500/1000"
-        }
-    ],
     "Contato": {
         "telephone": "(11) 99999-9999",
         "adress": "Rua dos restaurantes, 0 - São Paulo/SP",

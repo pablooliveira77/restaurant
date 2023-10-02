@@ -6,7 +6,7 @@
         <img src="http://www.anothermonkeythai.com/wp-content/uploads/2015/06/rest3.jpg">
       </div>
       <div class="product-title">
-        <p><strong>{{ titulo || 'Nome da empresa' }}</strong></p>
+        <p><strong>Restaurante do Zé</strong></p>
       </div>
       <div v-if="button === false" class="reserv">
         <div class="product-text">
@@ -36,10 +36,8 @@
 </template>
 
 <script setup>
-import dados from '../../var.json'
 import { ref } from "vue";
 
-const titulo = dados.title
 const button = ref(false);
 
 const reserve = () => {

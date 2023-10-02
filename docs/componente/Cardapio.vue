@@ -20,9 +20,39 @@
 </template>
 
 <script setup>
-import dados from '../../var.json'
 
-const fullMenu = dados.Menu
+const fullMenu = [
+        {
+            "id": 1,
+            "titulo": "Pão de queijo",
+            "preço": 5,
+            "imagem": "https://picsum.photos/1500/1000"
+        },
+        {
+            "id": 2,
+            "titulo": "Café",
+            "preço": 10,
+            "imagem": "https://picsum.photos/1500/1000"
+        },
+        {
+            "id": 3,
+            "titulo": "Misto Quente",
+            "preço": 7,
+            "imagem": "https://picsum.photos/1500/1000"
+        },
+        {
+            "id": 4,
+            "titulo": "Suco de Laranja",
+            "preço": 2,
+            "imagem": "https://picsum.photos/1500/1000"
+        },
+        {
+            "id": 5,
+            "titulo": "Bolo de Cenoura",
+            "preço": 5,
+            "imagem": "https://picsum.photos/1500/1000"
+        }
+    ]
 </script>
 
 <style>
